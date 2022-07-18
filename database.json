@@ -1,0 +1,267 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "address": "221 B baker street",
+      "sqaureFootage": 210
+    },
+    {
+      "id": 2,
+      "address": "HAHA YEAH 201",
+      "sqaureFootage": 35
+    },
+    {
+      "id": 3,
+      "address": "skrittle ave court road",
+      "sqaureFootage": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Christian Suriano",
+      "email": "crate@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 2,
+      "fullName": "Pepper Korn",
+      "email": "pepper@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 3,
+      "fullName": "Love Thunder",
+      "email": "Marvel@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "fullName": "Steve Buscemi",
+      "email": "bussiboi@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 5,
+      "fullName": "Bing Bong",
+      "email": "tothemoon@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 6,
+      "fullName": "Homelander",
+      "email": "ICanDoWhateverIWant@gmail.com",
+      "isStaff": false
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "address": "2802 Zula Locks",
+      "phoneNumber": "852-837-9713",
+      "userId": 3,
+      "loyaltyNumber": 123
+    },
+    {
+      "id": 2,
+      "address": "56849 Fadel Gateway",
+      "phoneNumber": "202-244-7090",
+      "userId": 4,
+      "loyaltyNumber": 1234
+    },
+    {
+      "id": 3,
+      "address": "7346 Ritchie Road",
+      "phoneNumber": "(507) 720-1157",
+      "userId": 5,
+      "loyaltyNumber": 12345
+    },
+    {
+      "id": 4,
+      "address": "8657 pernel droive",
+      "phoneNumber": "(507) 220-8008",
+      "userId": 6,
+      "loyaltyNumber": 123456
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "startDate": "2-07-2000",
+      "payRate": 40,
+      "locationId": 1,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "startDate": "7-13-2022",
+      "payRate": 8,
+      "locationId": 3,
+      "userId": 2
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "sour candy"
+    },
+    {
+      "id": 2,
+      "name": "chocolate"
+    },
+    {
+      "id": 3,
+      "name": "soda"
+    },
+    {
+      "id": 4,
+      "name": "rock candy"
+    },
+    {
+      "id": 5,
+      "name": "sammies"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "typeId": 1,
+      "price": 2,
+      "name": "sour patch critters"
+    },
+    {
+      "id": 2,
+      "typeId": 2,
+      "price": 100,
+      "name": "mr beast bar"
+    },
+    {
+      "id": 3,
+      "typeId": 3,
+      "price": 4,
+      "name": "prime"
+    },
+    {
+      "id": 4,
+      "typeId": 4,
+      "price": 7,
+      "name": "the rock"
+    },
+    {
+      "id": 5,
+      "typeId": 5,
+      "price": 500,
+      "name": "fried balognia"
+    },
+    {
+      "id": 6,
+      "typeId": 1,
+      "price": 1,
+      "name": "baby bottle pops"
+    },
+    {
+      "id": 7,
+      "typeId": 1,
+      "price": 1000000,
+      "name": "compound V"
+    },
+    {
+      "id": 8,
+      "typeId": 2,
+      "price": 14,
+      "name": "turtles"
+    },
+    {
+      "name": "bing bong",
+      "typeId": 4,
+      "price": 22,
+      "id": 9
+    },
+    {
+      "name": "tree",
+      "typeId": 2,
+      "price": 50,
+      "id": 10
+    },
+    {
+      "name": "karndyyyy",
+      "typeId": 1,
+      "price": 22,
+      "id": 11
+    }
+  ],
+  "locationsProducts": [
+    {
+      "id": 1,
+      "productId": 1,
+      "locationId": 1,
+      "quantity": 12
+    },
+    {
+      "id": 2,
+      "productId": 3,
+      "locationId": 1,
+      "quantity": 78
+    },
+    {
+      "id": 3,
+      "productId": 5,
+      "locationId": 1,
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "productId": 7,
+      "locationId": 1,
+      "quantity": 11
+    },
+    {
+      "id": 5,
+      "productId": 2,
+      "locationId": 2,
+      "quantity": 6
+    },
+    {
+      "id": 6,
+      "productId": 4,
+      "locationId": 2,
+      "quantity": 501
+    },
+    {
+      "id": 7,
+      "productId": 6,
+      "locationId": 2,
+      "quantity": 69
+    },
+    {
+      "id": 8,
+      "productId": 8,
+      "locationId": 2,
+      "quantity": 13
+    },
+    {
+      "id": 9,
+      "productId": 1,
+      "locationId": 3,
+      "quantity": 3
+    },
+    {
+      "id": 10,
+      "productId": 6,
+      "locationId": 3,
+      "quantity": 74
+    },
+    {
+      "id": 11,
+      "productId": 8,
+      "locationId": 3,
+      "quantity": 24
+    },
+    {
+      "id": 12,
+      "productId": 2,
+      "locationId": 3,
+      "quantity": 101
+    }
+  ]
+}
