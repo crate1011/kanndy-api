@@ -52,6 +52,18 @@
       "fullName": "Homelander",
       "email": "ICanDoWhateverIWant@gmail.com",
       "isStaff": false
+    },
+    {
+      "fullName": "steve",
+      "email": "a@a.com",
+      "isStaff": true,
+      "id": 7
+    },
+    {
+      "fullName": "donkle",
+      "email": "r@r.con",
+      "isStaff": true,
+      "id": 8
     }
   ],
   "customers": [
@@ -98,6 +110,20 @@
       "payRate": 8,
       "locationId": 3,
       "userId": 2
+    },
+    {
+      "userId": 7,
+      "startDate": "2022-07-13",
+      "payRate": 2,
+      "locationId": 1,
+      "id": 3
+    },
+    {
+      "userId": 8,
+      "startDate": "2022-07-23",
+      "payRate": 23,
+      "locationId": 2,
+      "id": 4
     }
   ],
   "types": [
